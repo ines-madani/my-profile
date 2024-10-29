@@ -1,0 +1,109 @@
+body {
+    background-color: #DFF2EB;
+    color: #4A628A;
+    font-family: "Dosis", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+h1, h2 {
+    font-family: "Old Standard TT", serif;
+}
+
+h1 {
+    color: #4A628A;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+h2 {
+    color: #4A628A;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+p {
+    color: #7AB2D3; /* Couleur mise à jour pour les paragraphes */
+}
+
+a {
+    font-family: "Old Standard TT", serif;
+    text-decoration: none;
+    color: #B9E5E8;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a:hover {
+    color: black;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 150px; 
+    height: auto; 
+    max-width: 100%; 
+}
+
+.btn-blue {
+    background-color: #7AB2D3;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-blue:hover {
+    background-color: #4A628A;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: #B9E5E8;
+}
+
+.list-inline i:hover {
+    color: #7AB2D3;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
